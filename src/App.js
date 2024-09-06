@@ -1,17 +1,18 @@
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import Dashboard from './Dashboard'; // Make sure to create a Dashboard component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import StudentLogin from './StudentLogin';
+import NextPage from './NextPage';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/nextpage" element={<NextPage />} />
+        <Route path="/" element={<StudentLogin />} />
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
