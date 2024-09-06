@@ -1,0 +1,38 @@
+/* src/StudentDashboard.css */
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dashboard-card {
+    flex: 1 1 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-card h2 {
+    margin-top: 0;
+  }
+  
+  .dashboard-card p {
+    margin: 10px 0;
+  }
+  
+  .dashboard-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .dashboard-card a:hover {
+    text-decoration: underline;
+  }
+  
