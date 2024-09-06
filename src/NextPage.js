@@ -11,7 +11,7 @@ const NextPage = () => {
 
   return (
     <div>
-      <h1>Welcome to the Next Page</h1>
+      <h1>Welcome to Intellilearn</h1>
       <button onClick={handleNavigateToDashboard}>Go to Dashboard</button>
     </div>
   );
