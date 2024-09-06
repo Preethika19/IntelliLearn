@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginPage from './LoginPage';
-import Dashboard from './Dashboard'; // Make sure to create a Dashboard component
+import LoginPage from './StudentLogin';
+import Dashboard from './StudentDashboard'; // Make sure to create a Dashboard component
 
 const App = () => {
   return (
