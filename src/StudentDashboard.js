@@ -24,11 +24,6 @@ const StudentDashboard = () => {
           <Link to="/materials">View Materials</Link>
         </div>
         <div className="dashboard-card">
-          <h2>Tests</h2>
-          <p>View and manage your tests.</p>
-          <Link to="/tests">View Tests</Link>
-        </div>
-        <div className="dashboard-card">
           <h2>Settings</h2>
           <p>Update your account settings.</p>
           <Link to="/settings">Go to Settings</Link>

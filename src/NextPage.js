@@ -1,36 +1,20 @@
-// src/StudentDashboard.js
+// src/NextPage.js
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './StudentDashboard.css'; // Optional: Create a CSS file for styling
+import { useNavigate } from 'react-router-dom';
+import "./NextPage.css";
+const NextPage = () => {
+  const navigate = useNavigate();
 
-const StudentDashboard = () => {
+  const handleNavigateToDashboard = () => {
+    navigate('/dashboard');
+  };
+
   return (
-    <div className="dashboard-container">
-      <h1>Student Dashboard</h1>
-      <div className="dashboard-content">
-        <div className="dashboard-card">
-          <h2>My Profile</h2>
-          <p>View and edit your personal information.</p>
-          <Link to="/profile">Go to Profile</Link>
-        </div>
-        <div className="dashboard-card">
-          <h2>My Courses</h2>
-          <p>Check out the courses you're enrolled in.</p>
-          <Link to="/courses">View Courses</Link>
-        </div>
-        <div className="dashboard-card">
-          <h2>Study Materials</h2>
-          <p>Access your study materials and resources.</p>
-          <Link to="/materials">View Materials</Link>
-        </div>
-        <div className="dashboard-card">
-          <h2>Settings</h2>
-          <p>Update your account settings.</p>
-          <Link to="/settings">Go to Settings</Link>
-        </div>
-      </div>
+    <div>
+      <h1>Welcome to IntelliLearn</h1>
+      <button onClick={handleNavigateToDashboard}>Go to Student Dashboard</button>
     </div>
   );
 };
 
-export default StudentDashboard;
+export default NextPage;

@@ -1,0 +1,56 @@
+/* NextPage.css */
+
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffefd5;
+  }
+  
+  h1 {
+    color: #ff4500; /* Bright Orange */
+    font-size: 2.5rem;
+  }
+  
+  p {
+    color: #2f4f4f; /* Dark Slate Gray */
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  
+  .card {
+    background-color: #87cefa; /* Light Sky Blue */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3 {
+    color: #4b0082; /* Indigo */
+  }
+  
+  .card p {
+    color: #000080; /* Navy */
+  }
+  
+  button {
+    background-color: #ff69b4; /* Hot Pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff1493; /* Deep Pink */
+  }
+  
